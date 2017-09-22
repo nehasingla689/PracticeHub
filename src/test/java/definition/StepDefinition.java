@@ -14,6 +14,8 @@ public class StepDefinition {
 
        System.out.println("inside given method");
         Assert.assertEquals(true,true);
+        System.out.println("inside  when method");
+
     }
 
     @When("^i enter valid details$")
