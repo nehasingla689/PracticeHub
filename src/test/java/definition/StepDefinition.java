@@ -28,6 +28,7 @@ public class StepDefinition {
     @Then("^i should see the home page$")
     public void i_should_see_the_home_page() throws Throwable {
         System.out.println("inside then method");
+        Assert.assertEquals(true,true);
         Assert.assertEquals(false,true);
     }
 
